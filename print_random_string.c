@@ -27,7 +27,7 @@ int main()
 	/* seed the randomizer */
 	srand( (unsigned)time(NULL) );
 
-	printf("Today's random word is:Hello ");
+	printf("Today's random word is:Hello save me");
     str = rand_string_alloc(size );
     printf("%s",str);
     free (str);
