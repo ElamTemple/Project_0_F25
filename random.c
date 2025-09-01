@@ -19,4 +19,4 @@ void rand_string(char *str, size_t size) {
     str[i] = letters[input]
    }
    str[size] - '\0'
- }
+}
