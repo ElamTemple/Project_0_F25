@@ -14,7 +14,7 @@ char* rand_string_alloc(size_t size)
          rand_string(s, size); // to be developed by the student
      }
      return s;
-
+}
 
 
 
@@ -27,7 +27,7 @@ int main()
 	/* seed the randomizer */
 	srand( (unsigned)time(NULL) );
 
-	printf("Today's random word is:Hello save me");
+	printf("Today's random word: ");
     str = rand_string_alloc(size );
     printf("%s",str);
     free (str);
